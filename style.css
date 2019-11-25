@@ -1,0 +1,240 @@
+#id1, .flower {
+    color: rgba(10, 56, 6, 0.986);
+    text-align: center;
+    font-size:40mm;
+}
+
+.box {
+    background: green;
+    border: 1px solid gray;
+    margin-bottom:5px;
+}
+
+#id2, .grid {
+    grid-template-columns: 150px 225px 160px 140px 150px 150px;
+    grid-template-rows: 30px;
+}
+
+.image{
+    margin-left:150px;
+}
+
+.grid {
+    display: grid;
+    margin-left:152px;
+    text-align: center;
+}
+
+.home {
+   margin-top: 30px;
+   color: brown;
+   font-size: 6mm;
+   text-align: center;
+}
+
+.mof {
+    margin-top: 50px;
+    font-size: 6mm;
+    margin-left: 150px;
+}
+
+.spf {
+    font-size: 10mm;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#id3 {
+    float: right;
+    margin-right: 100px;
+    margin-top:-250px;
+}
+
+#id4 {
+    float: right;
+    margin-right: 60px;
+    margin-top:-250px;
+}
+
+#id5 {
+    float: right;
+    margin-right: 100px;
+    margin-top:-350px;
+}
+
+.abc {
+    font-size: 10mm;
+    margin-left: 100px;
+    margin-top:300px;
+    font-weight: bold;
+}
+
+.ab {
+    font-size: 10mm;
+    margin-left: 100px;
+    margin-top:100px;
+    font-weight: bold;
+}
+
+#id6 {
+    float: right;
+    margin-right: 10px;
+    margin-top:-370px;
+}
+
+.sf {
+    font-size: 10mm;
+    margin-left: 100px;
+    margin-top: 300px;
+    font-weight: bold;
+}
+
+#id7 {
+    float: right;
+    margin-right: 20px;
+    margin-top: -320px;
+}
+
+#id8 {
+    float:right;
+    margin-right: 20px;
+    margin-top: -300px;
+}
+
+#id9 {
+    float: right;
+    margin-right: 10px;
+    margin-top: -300px;
+}
+
+#idcons, #detail{
+    display: flex;
+    flex-direction: row;
+}
+
+.icons{
+    height: 100px;
+    width: 150px;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 10mm;
+}
+
+.addr{
+    width: 200px;
+    margin-left: 180px;
+    margin-top: 200px;
+    color: rgb(73, 19, 19);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#socialicon{
+    display: flex;
+    flex-direction: row;
+}
+
+.socl{
+    width: 520px;
+}
+
+.social{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+@media(max-width:600px){
+    #id2, .grid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    #id1, .flower{
+        text-align: center;
+        font-size: 40px;
+        margin: 0px;
+    }
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .mof{
+        text-align: center;
+        margin: 0px;
+    }
+    .image{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    .pic{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    .box{
+        margin: 0px;
+    }
+    #idcons, #detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .contpic{
+        margin: 0px;
+        width: 100%;
+    }
+    .icons{
+        height: 40px;
+        width: 40px;
+        margin: 120px;
+        font-size: 5mm;
+    }
+    #socialicon{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    #detail{
+        margin-top: -650px;
+        margin-left: 50px;
+    }
+    #id3 {
+        float: right;
+        margin: 50px;
+    }
+    
+    #id4 {
+        float: right;
+        margin: 50px;
+    }
+    
+    #id5 {
+        float: right;
+        margin: 50px;
+    }
+    #id6 {
+        float: right;
+        margin: 50px;
+    }
+    #id7 {
+        float: right;
+        margin: 50px;
+    }
+    
+    #id8 {
+        float:right;
+        margin: 50px;
+    }
+    
+    #id9 {
+        float: right;
+        margin: 50px;
+    }
+}
